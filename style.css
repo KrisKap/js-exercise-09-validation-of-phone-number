@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.form {
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid blue;
+  max-width: 400px
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.small-text {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.8rem;
+  color: #878787;
+}
+
+input,
+button {
+  padding: 5px;
+}
+
+button {
+  background: rgba(0,0,255,0.6);
+  color: white;
+  border: inherit;
+
+}

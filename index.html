@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Phone number validation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <form class="form" action="index.html" method="post">
+        <label for="phone-input">Podaj swój numer telefonu <span class="small-text">(zgodny z formatem: 123-456-789 lub 123456789)</span></label>
+        <input type="tel" name="user-phone" value="" id="phone-input">
+        <button type="button" name="" value="Wyślij" id="send-btn" onclick="validatePhoneNumber()">Validate</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
